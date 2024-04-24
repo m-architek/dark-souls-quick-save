@@ -10,6 +10,7 @@ fn main() {
         panic!("Cannot find save file: {save_path:?}");
     }
 
+    KeybdKey::F1Key.bind(|| println!("-- F5 - Quick Save; F6 - Quick Load"));
     KeybdKey::F5Key.bind(|| quick_save());
     KeybdKey::F6Key.bind(|| quick_load());
 
