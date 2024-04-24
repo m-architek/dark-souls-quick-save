@@ -1,0 +1,5 @@
+target
+*.sl2
+
+.idea
+*.iml
